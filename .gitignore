@@ -1,0 +1,16 @@
+# Jekyll 构建产物
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Bundler
+vendor/bundle/
+vendor/cache/
+.bundle/
+
+# 编辑器 / 系统
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

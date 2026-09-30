@@ -1,0 +1,36 @@
+# 站点基础信息 —— 把下面几项改成你自己的
+title: 我的博客
+email: your-email@example.com
+description: >-
+  在这里写下你的自我介绍 / 博客简介。
+  支持多行文字。
+baseurl: ""        # 如果是独立用户名仓库(username.github.io)就留空;子路径仓库如 /blog 则填 /blog
+url: ""            # 留空,由 GitHub Pages 自动推断;绑定自定义域名后再填完整网址
+# twitter_username: your-twitter-handle
+github_username: your-github-username   # 改成你的 GitHub 用户名
+
+# 语言设置(meta 信息,便于 SEO)
+lang: zh-CN
+
+# 构建配置 —— 使用 GitHub Pages 原生支持的 minima 主题
+theme: minima
+
+# GitHub Pages / minima 官方推荐插件(均在 GitHub Pages 白名单内,可原生构建)
+plugins:
+  - jekyll-feed      # RSS 订阅
+  - jekyll-seo-tag   # SEO 优化
+  - jekyll-sitemap   # 站点地图 sitemap.xml
+
+# 高亮
+highlighter: rouge
+
+# 排除项:这些文件不会被构建进站点
+exclude:
+  - README.md
+  - .gitignore
+  - Gemfile
+  - Gemfile.lock
+  - .sass-cache/
+  - .jekyll-cache/
+  - vendor/bundle/
+  - vendor/cache/
